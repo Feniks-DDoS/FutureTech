@@ -1,0 +1,26 @@
+@use '../helpers' as *;
+
+
+.about__card {
+    display: flex;
+    flex-direction: column;
+    row-gap: fluid(20, 10);
+    transition: var(--transition-duration);
+
+  @include hover {
+    .about__card-title::after {
+           background: url(../../icons/YellowArrow.svg) transparent;
+            background-position: center;
+           background-repeat: no-repeat;
+             border: rem(1) solid var(--color-accent); 
+    }
+  }
+
+    &-title {
+        @include fluid-text(22, 16);
+        font-weight: 600;
+        font-family: var(--font-family-base);
+        display: flex;
+        align-items: center;
+    }
+}
