@@ -350,14 +350,14 @@ svg * {
   content: "";
   right: 0;
   border-radius: 50%;
-  background: url(../../icons/BlackArrowTopRight.svg) var(--color-accent);
+  background: url(../icons/BlackArrowTopRight.svg) var(--color-accent);
   background-position: center;
   background-repeat: no-repeat;
   transition: var(--transition-duration);
 }
 @media (any-hover: hover) {
   .circel-icon:hover::after {
-    background: url(../../icons/YellowArrow.svg) transparent;
+    background: url(../icons/YellowArrow.svg) transparent;
     background-position: center;
     background-repeat: no-repeat;
     border: 0.0625rem solid var(--color-accent);
@@ -365,7 +365,7 @@ svg * {
 }
 @media (any-hover: none) {
   .circel-icon:active::after {
-    background: url(../../icons/YellowArrow.svg) transparent;
+    background: url(../icons/YellowArrow.svg) transparent;
     background-position: center;
     background-repeat: no-repeat;
     border: 0.0625rem solid var(--color-accent);
@@ -508,10 +508,10 @@ button[aria-label]::before {
   }
 }
 .icon--yellow-arrow::after {
-  background-image: url(../../icons/YellowArrow.svg);
+  background-image: url(../icons/YellowArrow.svg);
 }
 .icon--yellow-eye::after {
-  background-image: url(../../icons/resources/eye.svg);
+  background-image: url(../icons/resources/eye.svg);
 }
 
 .logo {
@@ -1036,7 +1036,7 @@ button[aria-label]::before {
   grid-area: resources-preview;
   padding-left: 5rem;
   padding-bottom: 5rem;
-  background: url(../../images/Advantage-preview/adventage-bg.png) 0 0/cover no-repeat;
+  background: url(../images/Advantage-preview/adventage-bg.png) 0 0/cover no-repeat;
 }
 @media (width <= 90.06125rem) {
   .hero__resources-preview {
@@ -1054,7 +1054,7 @@ button[aria-label]::before {
     width: 100vw;
     margin-left: calc(var(--container-padding-x) * -1);
     padding: 6.25rem 2.5rem 2.5rem;
-    background-image: url(../../images/Advantage-preview/adventage-bg-mobile.png);
+    background-image: url(../images/Advantage-preview/adventage-bg-mobile.png);
     background-size: contain;
   }
 }
@@ -1615,10 +1615,10 @@ button[aria-label]::before {
   --size: 1.5rem;
   width: var(--size);
   height: var(--size);
-  background: url("../../icons/star_gray.svg") center/contain no-repeat;
+  background: url("../icons/star_gray.svg") center/contain no-repeat;
 }
 .rating-view__star.is-active {
-  background: url("../../icons/star_yellow.svg") center/contain no-repeat;
+  background: url("../icons/star_yellow.svg") center/contain no-repeat;
 }
 @media (width <= 90.06125rem) {
   .rating-view__star {
@@ -1682,7 +1682,7 @@ button[aria-label]::before {
 }
 @media (any-hover: hover) {
   .about__card:hover .about__card-title::after {
-    background: url(../../icons/YellowArrow.svg) transparent;
+    background: url(../icons/YellowArrow.svg) transparent;
     background-position: center;
     background-repeat: no-repeat;
     border: 0.0625rem solid var(--color-accent);
@@ -1690,7 +1690,7 @@ button[aria-label]::before {
 }
 @media (any-hover: none) {
   .about__card:active .about__card-title::after {
-    background: url(../../icons/YellowArrow.svg) transparent;
+    background: url(../icons/YellowArrow.svg) transparent;
     background-position: center;
     background-repeat: no-repeat;
     border: 0.0625rem solid var(--color-accent);
