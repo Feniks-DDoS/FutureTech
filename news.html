@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Future tech | Home</title>
+    <title>Future tech | News</title>
     <link rel="icon" href="./icons/BrauserPreviewLogo.svg">
     <link rel="stylesheet" href="./styles/main.css">
     <script src="./scripts/main.js" type="module" defer></script>
@@ -40,10 +40,10 @@
                     <div class="header__menu-center">
                         <ul class="header__menu-list">
                             <li class="header__menu-item">
-                                <a href="./index.html" class="header__menu-link is-active">Home</a>
+                                <a href="./index.html" class="header__menu-link ">Home</a>
                             </li>
                             <li class="header__menu-item">
-                                <a href="./news.html" class="header__menu-link">News</a>
+                                <a href="./news.html" class="header__menu-link is-active">News</a>
                             </li>
                             <li class="header__menu-item">
                                 <a href="./podcasts.html" class="header__menu-link">Podcasts</a>
@@ -76,241 +76,274 @@
     </header>
     
     <main>
-    <section class="hero" aria-labelledby="hero-title">
-        <div class="hero__main container">
-            <div class="hero__body">
-                <p class="hero__subtitle">Your Journey to Tomorrow Begins Here</p>
-                <h1 class="hero__title" id="hero-title">Explore the Frontiers of Artificial Intelligence</h1>
-                <div class="hero__description">
-                    <p>Welcome to the epicenter of AI innovation. FutureTech AI News is your passport to a world where machines think, learn, and reshape the future. Join us on this visionary expedition into the heart of AI.</p>
-                </div>
-            </div>
-            <div class="hero__metrics metrics full-vw-line full-vw-line--top full-vw-line--left">
-                <dl class="metrics__list">
-                    <div class="metrics__item">
-                        <dt class="metrics__key">Resources available</dt>
-                        <dd class="metrics__value h3" data-js-odometer-resourser>300<span class="metrics__sign">+</span></dd>
-                    </div>
-                    <div class="metrics__item">
-                        <dt class="metrics__key">Total Downloads</dt>
-                        <dd class="metrics__value h3" data-js-odometer-download>12k<span class="metrics__sign">+</span></dd>
-                    </div>
-                    <div class="metrics__item">
-                        <dt class="metrics__key">Active Users</dt>
-                        <dd class="metrics__value h3" data-js-odometer-user>10k<span class="metrics__sign">+</span></dd>
-                    </div>
-                </dl>
-            </div>
-            <div class="hero__resources-preview resources-preview">
-                <div class="resources-preview__team team">
-                    <img 
-                    src="./images/team/teamPersonFirst.png" 
-                    alt="" 
-                    class="team__person"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/team/teamPersonSecond.png" 
-                    alt="" 
-                    class="team__person"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/team/teamPersonThree.png" 
-                    alt="" 
-                    class="team__person"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/team/teamPersonFour.png" 
-                    alt="" 
-                    class="team__person"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                </div>
-                <div class="resources-preview__body">
-                    <p class="resources-preview__title h5">Explore 1000+ resources</p>
-                    <p class="resources-preview__subtitle">Over 1,000 articles on emerging tech trends and breakthroughs.</p>
-                </div>
-                    <a href="" class="resources-preview__button button">
-                        <span class="icon icon--yellow-arrow">Explore Resources</span>
-                    </a>
-            </div>
-        </div>
-        <div class="hero__advantages">
-            <h2 class="visually-hidden">Our advantages</h2>
-            <ul class="hero__advantages-list container">
-                <li class="hero__advantages-item">
-                    <div class="advatages-card">
-                        <img 
-                        src="./icons/Advatages/Advatages-1.svg" 
-                        alt="" 
-                        class="advatages-card__image"
-                        width="50"
-                        height="50"
-                        loading="lazy"
-                        />
-                        <a href="#" class="advatages-card__link circel-icon">
-                            <h3 class="advatages-card__title h6">Latest News Updates</h3>
-                            <p class="advatages-card__subtitle">Stay Current</p>
-                        </a>
-                        <p class="advatages-card__details">Over 1,000 articles published monthly</p>
-                    </div>
-                </li>
-                    <li class="hero__advantages-item">
-                    <div class="advatages-card">
-                        <img 
-                        src="./icons/Advatages/Advatages-2.svg" 
-                        alt="" 
-                        class="advatages-card__image"
-                        width="50"
-                        height="50"
-                        loading="lazy"
-                        />
-                        <a href="#" class="advatages-card__link circel-icon">
-                            <h3 class="advatages-card__title h6">Expert Contributors</h3>
-                            <p class="advatages-card__subtitle">Trusted Insights</p>
-                        </a>
-                        <p class="advatages-card__details">50+ renowned AI experts on our team</p>
-                    </div>
-                </li>
-                    <li class="hero__advantages-item">
-                    <div class="advatages-card">
-                        <img 
-                        src="./icons/Advatages/Advatges-3.svg" 
-                        alt="" 
-                        class="advatages-card__image"
-                        width="50"
-                        height="50"
-                        loading="lazy"
-                        />
-                        <a href="#" class="advatages-card__link circel-icon">
-                            <h3 class="advatages-card__title h6">Global Readership</h3>
-                            <p class="advatages-card__subtitle">Worldwide Impact</p>
-                        </a>
-                        <p class="advatages-card__details">2 million monthly readers</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    
-    <section class="section"  aria-labelledby="features-title">
-        <header class="section__header">
-            <div class="section__header-inner container">
-                <div class="section__header-info">
-                    <p class="section__subtitle tag">Unlock the Power of</p>
-                    <h2 class="section__title" id="features-title">FutureTech Features</h2>
-                </div>
-            </div>
-        </header>
-        <div class="section__body">
-            <ul class="list">
-                <li class="list__item">
-                    <div class="card container">
-                        <div class="card__preview">
-                            <div class="card__preview-main">
-                                <img 
-                                src="./icons/features/features-1.svg"
-                                alt="" 
-                                class="card__preview-icon"
-                                width="80"
-                                height="80"
-                                loading="lazy"
-                                />
-                                <div class="card__preview-info">
-                                    <h3 class="card__preview-title">Future Technology Blog</h3>
-                                    <div class="card__preview-description">
-                                    <p>Stay informed with our blog section dedicated to future technology.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__grid card__grid--2-cols">
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Quantity</h4>
-                                    <p class="card__cell-description">Over 1,000 articles on emerging tech trends and breakthroughs.</p>
-                                </div>
-                                    <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Variety</h4>
-                                    <p class="card__cell-description">Articles cover fields like AI, robotics, biotechnology, and more.</p>
-                                </div>
-                                    <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Frequency</h4>
-                                    <p class="card__cell-description">Fresh content added daily to keep you up to date.</p>
-                                </div>
-                                    <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Authoritative</h4>
-                                    <p class="card__cell-description">Written by our team of tech experts and industry professionals.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                    <li class="list__item">
-                    <div class="card container">
-                        <div class="card__preview">
-                            <div class="card__preview-main">
-                                <img 
-                                src="./icons/features/features-2.svg"
-                                alt="" 
-                                class="card__preview-icon"
-                                width="80"
-                                height="80"
-                                loading="lazy"
-                                />
-                                <div class="card__preview-info">
-                                    <h3 class="card__preview-title">Research Insights Blogs</h3>
-                                    <div class="card__preview-description">
-                                    <p>Dive deep into future technology concepts with our research section.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__grid card__grid--2-cols">
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Depth</h4>
-                                    <p class="card__cell-description">500+ research articles for in-depth understanding.</p>
-                                </div>
-                                    <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Graphics</h4>
-                                    <p class="card__cell-description">Visual aids and infographics to enhance comprehension</p>
-                                </div>
-                                    <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Trends</h4>
-                                    <p class="card__cell-description">Explore emerging trends in future technology research.</p>
-                                </div>
-                                    <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Contributors</h4>
-                                    <p class="card__cell-description">Contributions from tech researchers and academics.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
 
-    <section class="section" aria-labelledby="blog-title">
+        <section class="hero-alt" aria-labelledby="news-title">
+            <header class="hero-alt__header">
+                <div class="hero-alt__header-inner container">
+                    <h1 class="hero-alt__title" id="news-title">Today's Headlines: Stay <span class="hero-alt__title-hidden-part">Informed</span></h1>
+                    <p class="hero-alt__subtitle h1 hidden-mobile" aria-hidden="true">Informed</p>
+                    <p class="hero-alt-description">Explore the latest news from around the world. We bring you up-to-the-minute updates on the most significant events, trends, and stories. Discover the world through our news coverage.</p>
+                </div>
+            </header>
+            <div class="header-alt__body">
+                <ul class="list">
+                    <li class="list__item">
+                        <article class="news-card container">
+                            <img 
+                            src="./images/hero-alt/1-alt.jpg" 
+                            alt="" 
+                            class="news-card__image"
+                            width="515"
+                            height="427"
+                            loading="lazy"
+                            />
+                            <div class="news-card__body">
+                                <h2 class="news-card__title">Global Climate Summit Addresses Urgent Climate Action</h2>
+                                <div class="news-card__description">
+                                    <p>World leaders gathered at the Global Climate Summit to discuss urgent climate action, emissions reductions, and renewable energy targets.</p>
+                                </div>
+                            </div>
+                            <div class="news-card__summary summary">
+                                <dl class="summary__list">
+                                    <div class="summary__item">
+                                        <dt class="summary__key">Category</dt>
+                                        <dd class="summary__value">Environment</dd>
+                                    </div>
+                                     <div class="summary__item">
+                                        <dt class="summary__key">Publication Date</dt>
+                                        <dd class="summary__value"><time datetime="2023-10-10">October 10, 2023</time></dd>
+                                    </div>
+                                     <div class="summary__item">
+                                        <dt class="summary__key">Author</dt>
+                                        <dd class="summary__value">Jane Smith</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                            <div class="news-card__controls">
+                                <div class="news-card__actions blog-actions">
+                                      <ul class="blog-actions__list">
+                            <li class="blog-actions__item">
+                                <button class="blog-actions__button " 
+                                type="button"
+                                aria-label="Like"
+                                title="Like"
+                                data-js-blog
+                                >
+                            <span class="blog-actions__icon-wrraper" data-js-like-span>
+                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.645 19.4107L10.6384 19.4071L10.6158 19.3949C10.5965 19.3844 10.5689 19.3693 10.5336 19.3496C10.4629 19.3101 10.3612 19.2524 10.233 19.1769C9.9765 19.0261 9.61317 18.8039 9.17855 18.515C8.31074 17.9381 7.15122 17.0901 5.9886 16.0063C3.68781 13.8615 1.25 10.6751 1.25 6.75C1.25 3.82194 3.7136 1.5 6.6875 1.5C8.43638 1.5 10.0023 2.29909 11 3.5516C11.9977 2.29909 13.5636 1.5 15.3125 1.5C18.2864 1.5 20.75 3.82194 20.75 6.75C20.75 10.6751 18.3122 13.8615 16.0114 16.0063C14.8488 17.0901 13.6893 17.9381 12.8215 18.515C12.3868 18.8039 12.0235 19.0261 11.767 19.1769C11.6388 19.2524 11.5371 19.3101 11.4664 19.3496C11.4311 19.3693 11.4035 19.3844 11.3842 19.3949L11.3616 19.4071L11.355 19.4107L11.3523 19.4121C11.1323 19.5289 10.8677 19.5289 10.6477 19.4121L10.645 19.4107Z" stroke="#666666" stroke-width="1.5" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span>2.2k</span>
+                        </button>
+                            </li>
+                                <li class="blog-actions__item">
+                                <button class="blog-actions__button" 
+                                type="button"
+                                aria-label="Share"
+                                title="Share"
+                                >
+                            <span class="blog-actions__icon-wrraper">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0384 14.4616L4.1719 11.7951C3.36454 11.4281 3.39898 10.2697 4.22673 9.95134L18.8999 4.30781C19.7087 3.99675 20.5033 4.79139 20.1922 5.60013L14.5487 20.2733C14.2303 21.1011 13.072 21.1355 12.705 20.3281L10.0384 14.4616ZM10.0384 14.4616L14.4231 10.077" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </span>
+                            <span>60</span>
+                        </button>
+                            </li>
+                        </ul>
+                                </div>
+                                <a href="#" class="news-card__link button">Read More</a>
+                            </div>
+                        </article>
+                    </li>
+                     <li class="list__item">
+                        <div class="news">
+                            <ul class="news__list">
+                                <li class="news__item">
+                                     <article class="news-card container">
+                            <img 
+                            src="./images/hero-alt/1.jpg" 
+                            alt="" 
+                            class="news-card__image"
+                            width="515"
+                            height="222"
+                            loading="lazy"
+                            />
+                            <div class="news-card__body">
+                                <h2 class="news-card__title h6">A Decisive Victory for Progressive Policies</h2>
+                                <div class="news-card__description">
+                                    <p>Politics</p>
+                                </div>
+                            </div>
+                            <div class="news-card__controls">
+                                <div class="news-card__actions blog-actions">
+                                      <ul class="blog-actions__list">
+                            <li class="blog-actions__item">
+                                <button class="blog-actions__button " 
+                                type="button"
+                                aria-label="Like"
+                                title="Like"
+                                data-js-blog
+                                >
+                            <span class="blog-actions__icon-wrraper" data-js-like-span>
+                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.645 19.4107L10.6384 19.4071L10.6158 19.3949C10.5965 19.3844 10.5689 19.3693 10.5336 19.3496C10.4629 19.3101 10.3612 19.2524 10.233 19.1769C9.9765 19.0261 9.61317 18.8039 9.17855 18.515C8.31074 17.9381 7.15122 17.0901 5.9886 16.0063C3.68781 13.8615 1.25 10.6751 1.25 6.75C1.25 3.82194 3.7136 1.5 6.6875 1.5C8.43638 1.5 10.0023 2.29909 11 3.5516C11.9977 2.29909 13.5636 1.5 15.3125 1.5C18.2864 1.5 20.75 3.82194 20.75 6.75C20.75 10.6751 18.3122 13.8615 16.0114 16.0063C14.8488 17.0901 13.6893 17.9381 12.8215 18.515C12.3868 18.8039 12.0235 19.0261 11.767 19.1769C11.6388 19.2524 11.5371 19.3101 11.4664 19.3496C11.4311 19.3693 11.4035 19.3844 11.3842 19.3949L11.3616 19.4071L11.355 19.4107L11.3523 19.4121C11.1323 19.5289 10.8677 19.5289 10.6477 19.4121L10.645 19.4107Z" stroke="#666666" stroke-width="1.5" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span>14k</span>
+                        </button>
+                            </li>
+                                <li class="blog-actions__item">
+                                <button class="blog-actions__button" 
+                                type="button"
+                                aria-label="Share"
+                                title="Share"
+                                >
+                            <span class="blog-actions__icon-wrraper">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0384 14.4616L4.1719 11.7951C3.36454 11.4281 3.39898 10.2697 4.22673 9.95134L18.8999 4.30781C19.7087 3.99675 20.5033 4.79139 20.1922 5.60013L14.5487 20.2733C14.2303 21.1011 13.072 21.1355 12.705 20.3281L10.0384 14.4616ZM10.0384 14.4616L14.4231 10.077" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </span>
+                            <span>204</span>
+                        </button>
+                            </li>
+                        </ul>
+                                </div>
+                                <a href="#" class="news-card__link button">
+                                    <span class="icon icon--yellow-arrow">Read More</span>
+                                </a>
+                            </div>
+                        </article>
+                                </li>
+                                 <li class="news__item">
+                                     <article class="news-card container">
+                            <img 
+                            src="./images/hero-alt/2.jpg" 
+                            alt="" 
+                            class="news-card__image"
+                            width="515"
+                            height="222"
+                            loading="lazy"
+                            />
+                            <div class="news-card__body">
+                                <h2 class="news-card__title h6">Tech Giants Unveil Cutting-Edge AI Innovations</h2>
+                                <div class="news-card__description">
+                                    <p>Technology</p>
+                                </div>
+                            </div>
+                            <div class="news-card__controls">
+                                <div class="news-card__actions blog-actions">
+                                      <ul class="blog-actions__list">
+                            <li class="blog-actions__item">
+                                <button class="blog-actions__button " 
+                                type="button"
+                                aria-label="Like"
+                                title="Like"
+                                data-js-blog
+                                >
+                            <span class="blog-actions__icon-wrraper" data-js-like-span>
+                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.645 19.4107L10.6384 19.4071L10.6158 19.3949C10.5965 19.3844 10.5689 19.3693 10.5336 19.3496C10.4629 19.3101 10.3612 19.2524 10.233 19.1769C9.9765 19.0261 9.61317 18.8039 9.17855 18.515C8.31074 17.9381 7.15122 17.0901 5.9886 16.0063C3.68781 13.8615 1.25 10.6751 1.25 6.75C1.25 3.82194 3.7136 1.5 6.6875 1.5C8.43638 1.5 10.0023 2.29909 11 3.5516C11.9977 2.29909 13.5636 1.5 15.3125 1.5C18.2864 1.5 20.75 3.82194 20.75 6.75C20.75 10.6751 18.3122 13.8615 16.0114 16.0063C14.8488 17.0901 13.6893 17.9381 12.8215 18.515C12.3868 18.8039 12.0235 19.0261 11.767 19.1769C11.6388 19.2524 11.5371 19.3101 11.4664 19.3496C11.4311 19.3693 11.4035 19.3844 11.3842 19.3949L11.3616 19.4071L11.355 19.4107L11.3523 19.4121C11.1323 19.5289 10.8677 19.5289 10.6477 19.4121L10.645 19.4107Z" stroke="#666666" stroke-width="1.5" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span>6k</span>
+                        </button>
+                            </li>
+                                <li class="blog-actions__item">
+                                <button class="blog-actions__button" 
+                                type="button"
+                                aria-label="Share"
+                                title="Share"
+                                >
+                            <span class="blog-actions__icon-wrraper">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0384 14.4616L4.1719 11.7951C3.36454 11.4281 3.39898 10.2697 4.22673 9.95134L18.8999 4.30781C19.7087 3.99675 20.5033 4.79139 20.1922 5.60013L14.5487 20.2733C14.2303 21.1011 13.072 21.1355 12.705 20.3281L10.0384 14.4616ZM10.0384 14.4616L14.4231 10.077" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </span>
+                            <span>92</span>
+                        </button>
+                            </li>
+                        </ul>
+                                </div>
+                                <a href="#" class="news-card__link button">
+                                    <span class="icon icon--yellow-arrow">Read More</span>
+                                </a>
+                            </div>
+                        </article>
+                                </li>
+                                 <li class="news__item">
+                                     <article class="news-card container">
+                            <img 
+                            src="./images/hero-alt/3.jpg" 
+                            alt="" 
+                            class="news-card__image"
+                            width="515"
+                            height="222"
+                            loading="lazy"
+                            />
+                            <div class="news-card__body">
+                                <h2 class="news-card__title h6">COVID-19 Variants</h2>
+                                <div class="news-card__description">
+                                    <p>Health</p>
+                                </div>
+                            </div>
+                            <div class="news-card__controls">
+                                <div class="news-card__actions blog-actions">
+                                      <ul class="blog-actions__list">
+                            <li class="blog-actions__item">
+                                <button class="blog-actions__button " 
+                                type="button"
+                                aria-label="Like"
+                                title="Like"
+                                data-js-blog
+                                >
+                            <span class="blog-actions__icon-wrraper" data-js-like-span>
+                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.645 19.4107L10.6384 19.4071L10.6158 19.3949C10.5965 19.3844 10.5689 19.3693 10.5336 19.3496C10.4629 19.3101 10.3612 19.2524 10.233 19.1769C9.9765 19.0261 9.61317 18.8039 9.17855 18.515C8.31074 17.9381 7.15122 17.0901 5.9886 16.0063C3.68781 13.8615 1.25 10.6751 1.25 6.75C1.25 3.82194 3.7136 1.5 6.6875 1.5C8.43638 1.5 10.0023 2.29909 11 3.5516C11.9977 2.29909 13.5636 1.5 15.3125 1.5C18.2864 1.5 20.75 3.82194 20.75 6.75C20.75 10.6751 18.3122 13.8615 16.0114 16.0063C14.8488 17.0901 13.6893 17.9381 12.8215 18.515C12.3868 18.8039 12.0235 19.0261 11.767 19.1769C11.6388 19.2524 11.5371 19.3101 11.4664 19.3496C11.4311 19.3693 11.4035 19.3844 11.3842 19.3949L11.3616 19.4071L11.355 19.4107L11.3523 19.4121C11.1323 19.5289 10.8677 19.5289 10.6477 19.4121L10.645 19.4107Z" stroke="#666666" stroke-width="1.5" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span>10k</span>
+                        </button>
+                            </li>
+                                <li class="blog-actions__item">
+                                <button class="blog-actions__button" 
+                                type="button"
+                                aria-label="Share"
+                                title="Share"
+                                >
+                            <span class="blog-actions__icon-wrraper">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.0384 14.4616L4.1719 11.7951C3.36454 11.4281 3.39898 10.2697 4.22673 9.95134L18.8999 4.30781C19.7087 3.99675 20.5033 4.79139 20.1922 5.60013L14.5487 20.2733C14.2303 21.1011 13.072 21.1355 12.705 20.3281L10.0384 14.4616ZM10.0384 14.4616L14.4231 10.077" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </span>
+                            <span>124</span>
+                        </button>
+                            </li>
+                        </ul>
+                                </div>
+                                <a href="#" class="news-card__link button">
+                                    <span class="icon icon--yellow-arrow">Read More</span>
+                                </a>
+                            </div>
+                        </article>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="news-tabs-title">
         <header class="section__header" >
             <div class="section__header-inner container">
                 <div class="section__header-info">
-                    <p class="section__subtitle tag">A Knowledge Treasure Trove</p>
-                    <h2 class="section__title" id="blog-title">Explore FutureTech's In-Depth Blog Posts</h2>
+                    <p class="section__subtitle tag">Welcome to Our News Hub</p>
+                    <h2 class="section__title" id="news-tabs-title">Discover the World of Headlines</h2>
                 </div>
                 <a href="./blog.html" class="section__link button ">
-                    <span class="icon icon--yellow-arrow">View All Blogs</span>
+                    <span class="icon icon--yellow-arrow">View All News</span>
                 </a>
             </div>
         </header>
@@ -341,7 +374,7 @@
                     data-js-tabs-button
                     aria-selected="false"  
                     tabindex="-1"                    
-                    >Quantum Computing
+                    >Technology
                 </button>
                     <button
                     class="tabs__button" 
@@ -352,7 +385,7 @@
                     data-js-tabs-button
                     aria-selected="false"     
                     tabindex="-1"                 
-                    >AI Ethics
+                    >Politics
                 </button>
                     <button
                     class="tabs__button" 
@@ -363,7 +396,7 @@
                     data-js-tabs-button
                     aria-selected="false" 
                     tabindex="-1"                     
-                    >Space Exploration
+                    >Health
                 </button>
 
                     <button
@@ -375,7 +408,7 @@
                     data-js-tabs-button
                     aria-selected="false"  
                     tabindex="-1"                    
-                    >Biotechnology
+                    >Environment
                 </button>
 
                     <button
@@ -387,7 +420,7 @@
                     data-js-tabs-button
                     aria-selected="false"  
                     tabindex="-1"                    
-                    >Renewable Energy
+                    >Sports
                 </button>
                 </div>
             </header>
@@ -686,445 +719,161 @@
                 </div>
             </div>
         </div>
-    </section>
+        </section>
 
-     <section class="section" aria-labelledby="resources-title">
+          <section class="section" aria-labelledby="videos-title">
         <header class="section__header" >
             <div class="section__header-inner container">
                 <div class="section__header-info">
-                    <p class="section__subtitle tag">Your Gateway to In-Depth Information</p>
-                    <h2 class="section__title" id="resources-title">Unlock Valuable Knowledge with FutureTech's Resources</h2>
+                    <p class="section__subtitle tag">Featured Videos</p>
+                    <h2 class="section__title" id="videos-title">Visual Insights for the Modern Viewer</h2>
                 </div>
                 <a href="#" class="section__link button ">
-                    <span class="icon icon--yellow-arrow">View All Resources</span>
+                    <span class="icon icon--yellow-arrow">View All</span>
                 </a>
             </div>
         </header>
         <div class="section__body">
-            <ul class="list">
-                <li class="list__item">
-                      <div class="card container">
-                        <div class="card__preview">
-                            <div class="card__preview-main">
-                                <img 
-                                src="./icons/resources/1.svg"
-                                alt="" 
-                                class="card__preview-icon"
-                                width="80"
-                                height="80"
-                                loading="lazy"
-                                />
-                                <div class="card__preview-info">
-                                    <h3 class="card__preview-title">Ebooks</h3>
-                                    <div class="card__preview-description">
-                                    <p>Explore our collection of ebooks covering a wide spectrum of future technology topics.</p>
-                                    </div>
-                                </div>
-                                <a href="#" class="card__preview-link button button--dark-gray">
-                                    <span class="icon icon--yellow-arrow">Download Ebooks Now</span>
-                                </a>
-                            </div>
-                            <div class="card__preview-extra">
-                                <div class="download-info tile">
-                                    <div class="download-info__body">
-                                        <p class="download-info__title">
-                                            Downloaded By
-                                        </p>
-                                        <p class="download-info__subtitle h5">10k + Users</p>
-                                    </div>
-                                    <div class="download-info__team team">
-                                           <img 
-                    src="./images/team/teamPersonFirst.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/team/teamPersonSecond.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/team/teamPersonThree.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/team/teamPersonFour.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__grid card__grid--2-cols-alt">
-                                <div class="card__cell">     
-                                    <h3 class="card__cell-title h5">Variety of Topics</h3>
-                                </div>
-                                 <div class="card__cell">     
-                                    <p class="card__cell-description">
-                                        Topics include AI in education (25%), renewable energy (20%), healthcare (15%), space exploration (25%), and biotechnology (15%).
-                                    </p>
-                                </div>
-                                 <div class="card__cell card__cell--wide">
-                                    <img 
-                                    src="./images/resources/Image-1.jpg" 
-                                    alt="" 
-                                    class="card__cell-image"
-                                    width="917" height="332" loading="lazy"
-                                    />     
-                                </div>
-                                 <div class="card__cell tile">     
-                                    <h4 class="card__cell-subtitle">Total Ebooks</h4>
-                                    <p class="card__cell-description h6">Over 100 ebooks</p>
-                                </div>
-                                 <div class="card__cell tile">     
-                                    <h4 class="card__cell-subtitle">Download Formats</h4>
-                                    <p class="card__cell-description h6">PDF format for access.</p>
-                                    <a href="#" class="card__cell-link button">
-                                        <span class="icon icon--yellow-eye">Preview</span>
-                                    </a>
-                                </div>
-                                 <div class="card__cell card__cell--wide tile">     
-                                    <h4 class="card__cell-subtitle">Average Author Expertise</h4>
-                                    <p class="card__cell-description h6">Ebooks are authored by renowned experts with an average of 15 years of experience</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                </li>
-                  <li class="list__item">
-                      <div class="card container">
-                        <div class="card__preview">
-                            <div class="card__preview-main">
-                                <img 
-                                src="./icons/resources/1.svg"
-                                alt="" 
-                                class="card__preview-icon"
-                                width="80"
-                                height="80"
-                                loading="lazy"
-                                />
-                                <div class="card__preview-info">
-                                    <h3 class="card__preview-title">Whitepapers</h3>
-                                    <div class="card__preview-description">
-                                    <p>Dive into comprehensive reports and analyses with our collection of whitepapers.</p>
-                                    </div>
-                                </div>
-                                <a href="#" class="card__preview-link button button--dark-gray">
-                                    <span class="icon icon--yellow-arrow">Download Whitepapers Now</span>
-                                </a>
-                            </div>
-                            <div class="card__preview-extra">
-                                <div class="download-info tile">
-                                    <div class="download-info__body">
-                                        <p class="download-info__title">
-                                            Downloaded By
-                                        </p>
-                                        <p class="download-info__subtitle h5">10k + Users</p>
-                                    </div>
-                                    <div class="download-info__team team">
-                                           <img 
-                    src="./images/resources/team2/1.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/resources/team2/2.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/resources/team2/3.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                        <img 
-                    src="./images/resources/team2/4.png" 
-                    alt="" 
-                    class="team__person"
-                    width="50"
-                    height="50"
-                    loading="lazy"
-                    />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__grid card__grid--2-cols-alt">
-                                <div class="card__cell">     
-                                    <h3 class="card__cell-title h5">Topics Coverage</h3>
-                                </div>
-                                 <div class="card__cell">     
-                                    <p class="card__cell-description">
-                                        Whitepapers cover quantum computing (20%), AI ethics (15%), space mining prospects (20%), AI in healthcare (15%), and renewable energy strategies (30%).
-                                    </p>
-                                </div>
-                                 <div class="card__cell card__cell--wide">
-                                    <img 
-                                    src="./images/resources/Image-2.jpg" 
-                                    alt="" 
-                                    class="card__cell-image"
-                                    width="917" height="332" loading="lazy"
-                                    />     
-                                </div>
-                                 <div class="card__cell tile">     
-                                    <h4 class="card__cell-subtitle">Total Whitepapers</h4>
-                                    <p class="card__cell-description h6">Over 50 whitepapers</p>
-                                </div>
-                                 <div class="card__cell tile">     
-                                    <h4 class="card__cell-subtitle">Download Formats</h4>
-                                    <p class="card__cell-description h6">PDF format for access.</p>
-                                    <a href="#" class="card__cell-link button">
-                                        <span class="icon icon--yellow-eye">Preview</span>
-                                    </a>
-                                </div>
-                                 <div class="card__cell card__cell--wide tile">     
-                                    <h4 class="card__cell-subtitle">Average Author Expertise</h4>
-                                    <p class="card__cell-description h6">Whitepapers are authored by subject matter experts with an average of 20 years of experience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="section" aria-labelledby="reviews-title">
-        <header class="section__header" >
-            <div class="section__header-inner container">
-                <div class="section__header-info">
-                    <p class="section__subtitle tag">What Our Readers Say</p>
-                    <h2 class="section__title" id="reviews-title">Real Words from Real Readers</h2>
-                </div>
-                <a href="#" class="section__link button ">
-                    <span class="icon icon--yellow-arrow">View All Testimonials</span>
-                </a>
-            </div>
-        </header>
-        <div class="section__body">
-            <ul class="bordered-grid bordered-grid--3-cols container">
+            <ul class="bordered-grid bordered-grid--2-cols container">
                 <li class="bordered-grid__item">
-                    <div class="review-card">
-                        <div class="review-card__author person-card">
-                             <img 
-                    src="./images/reviews/1.png" 
-                    alt="" 
-                    class="person-card__image"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                    <div class="person-card__body">
-                        <p class="person-card__name">Sarah Thompson</p>
-                        <p class="person-card__department">San Francisco, USA</p>
+                   <div class="video-card">
+                    <div class="video-card__player video-player" data-js-video-player>
+                        <video 
+                        src="./videos/example.mp4"
+                         class="video-player__video"
+                          width="718" 
+                          height="412"
+                          poster="./images/videos-preview/1.jpg"
+                          data-js-video-player-video
+                          ></video>
+                          <div class="video-player__panel is-active" data-js-video-player-panel>
+                            <button class="video-player__play-button" 
+                            type="button" 
+                            aria-label="Play video" 
+                            title="Play video"
+                            data-js-video-player-play-button
+                            >
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.6875 21C0.6875 9.78172 9.78172 0.6875 21 0.6875C32.2183 0.6875 41.3125 9.78172 41.3125 21C41.3125 32.2183 32.2183 41.3125 21 41.3125C9.78172 41.3125 0.6875 32.2183 0.6875 21ZM29.9045 18.9513C31.5119 19.8443 31.5119 22.1559 29.9045 23.0489L18.232 29.5336C16.6698 30.4015 14.75 29.2719 14.75 27.4848L14.75 14.5153C14.75 12.7283 16.6698 11.5986 18.232 12.4665L29.9045 18.9513Z" fill="white"/>
+                            </svg>
+                            </button>
+                            <div class="video-player__duration">2.30 min</div>
+                          </div>
                     </div>
-                        </div>
-                        <div class="review-card__body tile">
-                            <div class="review-card__rating-view rating-view" 
-                            title="Rating 5 star"
-                            aria-label="Rating 5 star">
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                            </div>
-                            <blockquote class="review-card__description">
-                                <p>The ebooks on AI in education have been a game-changer for my research. They provide in-depth insights and case studies that are invaluable for staying updated.</p>
-                            </blockquote>
+                    <div class="video-card__body">
+                        <h3 class="video-card__title h5">Mars Exploration: Unveiling Alien Landscapes</h3>
+                        <div class="video-card__description">
+                            <p>Embark on a journey through the Red Planet's breathtaking landscapes and uncover the mysteries of Mars.</p>
                         </div>
                     </div>
+                   </div>
                 </li>
-                 <li class="bordered-grid__item">
-                    <div class="review-card">
-                        <div class="review-card__author person-card">
-                             <img 
-                    src="./images/reviews/2.png" 
-                    alt="" 
-                    class="person-card__image"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                    <div class="person-card__body">
-                        <p class="person-card__name">Raj Patel</p>
-                        <p class="person-card__department">Mumbai, India</p>
+                  <li class="bordered-grid__item">
+                   <div class="video-card">
+                    <div class="video-card__player video-player" data-js-video-player>
+                        <video 
+                        src="./videos/example.mp4"
+                         class="video-player__video"
+                          width="718" 
+                          height="412"
+                          poster="./images/videos-preview/2.jpg"
+                          data-js-video-player-video
+                          ></video>
+                          <div class="video-player__panel is-active" data-js-video-player-panel>
+                            <button class="video-player__play-button" 
+                            type="button" 
+                            aria-label="Play video" 
+                            title="Play video"
+                            data-js-video-player-play-button
+                            >
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.6875 21C0.6875 9.78172 9.78172 0.6875 21 0.6875C32.2183 0.6875 41.3125 9.78172 41.3125 21C41.3125 32.2183 32.2183 41.3125 21 41.3125C9.78172 41.3125 0.6875 32.2183 0.6875 21ZM29.9045 18.9513C31.5119 19.8443 31.5119 22.1559 29.9045 23.0489L18.232 29.5336C16.6698 30.4015 14.75 29.2719 14.75 27.4848L14.75 14.5153C14.75 12.7283 16.6698 11.5986 18.232 12.4665L29.9045 18.9513Z" fill="white"/>
+                            </svg>
+                            </button>
+                            <div class="video-player__duration">2.30 min</div>
+                          </div>
                     </div>
-                        </div>
-                        <div class="review-card__body tile">
-                            <div class="review-card__rating-view rating-view" 
-                            title="Rating 5 star"
-                            aria-label="Rating 5 star">
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                            </div>
-                            <blockquote class="review-card__description">
-                                <p>The whitepapers on renewable energy strategies have greatly influenced my work. They offer detailed data and analysis, helping me make informed decisions.</p>
-                            </blockquote>
+                    <div class="video-card__body">
+                        <h3 class="video-card__title h5">Blockchain Explained: A Revolution in Finance</h3>
+                        <div class="video-card__description">
+                            <p>Delve into the world of blockchain technology and its transformative impact on the financial industry.</p>
                         </div>
                     </div>
+                   </div>
                 </li>
-                 <li class="bordered-grid__item">
-                    <div class="review-card">
-                        <div class="review-card__author person-card">
-                             <img 
-                    src="./images/reviews/3.png" 
-                    alt="" 
-                    class="person-card__image"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                    <div class="person-card__body">
-                        <p class="person-card__name">Emily Adams</p>
-                        <p class="person-card__department">London, UK</p>
+                  <li class="bordered-grid__item">
+                   <div class="video-card">
+                    <div class="video-card__player video-player" data-js-video-player>
+                        <video 
+                        src="./videos/example.mp4"
+                         class="video-player__video"
+                          width="718" 
+                          height="412"
+                          poster="./images/videos-preview/3.jpg"
+                          data-js-video-player-video
+                          ></video>
+                          <div class="video-player__panel is-active" data-js-video-player-panel>
+                            <button class="video-player__play-button" 
+                            type="button" 
+                            aria-label="Play video" 
+                            title="Play video"
+                            data-js-video-player-play-button
+                            >
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.6875 21C0.6875 9.78172 9.78172 0.6875 21 0.6875C32.2183 0.6875 41.3125 9.78172 41.3125 21C41.3125 32.2183 32.2183 41.3125 21 41.3125C9.78172 41.3125 0.6875 32.2183 0.6875 21ZM29.9045 18.9513C31.5119 19.8443 31.5119 22.1559 29.9045 23.0489L18.232 29.5336C16.6698 30.4015 14.75 29.2719 14.75 27.4848L14.75 14.5153C14.75 12.7283 16.6698 11.5986 18.232 12.4665L29.9045 18.9513Z" fill="white"/>
+                            </svg>
+                            </button>
+                            <div class="video-player__duration">2.30 min</div>
+                          </div>
                     </div>
-                        </div>
-                        <div class="review-card__body tile">
-                            <div class="review-card__rating-view rating-view" 
-                            title="Rating 5 star"
-                            aria-label="Rating 5 star">
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                            </div>
-                            <blockquote class="review-card__description">
-                                <p>The AI in healthcare reports have been an essential resource for our hospital. They highlight the latest innovations and best practices, improving patient care.</p>
-                            </blockquote>
+                    <div class="video-card__body">
+                        <h3 class="video-card__title h5">Breaking the Silence: Mental Health Awareness in the Workplace</h3>
+                        <div class="video-card__description">
+                            <p>An exploration of the importance of mental health awareness and the initiatives reshaping workplaces for employee well-being.</p>
                         </div>
                     </div>
+                   </div>
                 </li>
-                 <li class="bordered-grid__item">
-                    <div class="review-card">
-                        <div class="review-card__author person-card">
-                             <img 
-                    src="./images/reviews/4.png" 
-                    alt="" 
-                    class="person-card__image"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                    <div class="person-card__body">
-                        <p class="person-card__name">Alan Jackson</p>
-                        <p class="person-card__department">Houston, USA</p>
+                  <li class="bordered-grid__item">
+                   <div class="video-card">
+                    <div class="video-card__player video-player" data-js-video-player>
+                        <video 
+                        src="./videos/example.mp4"
+                         class="video-player__video"
+                          width="718" 
+                          height="412"
+                          poster="./images/videos-preview/4.jpg"
+                          data-js-video-player-video
+                          ></video>
+                          <div class="video-player__panel is-active" data-js-video-player-panel>
+                            <button class="video-player__play-button" 
+                            type="button" 
+                            aria-label="Play video" 
+                            title="Play video"
+                            data-js-video-player-play-button
+                            >
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.6875 21C0.6875 9.78172 9.78172 0.6875 21 0.6875C32.2183 0.6875 41.3125 9.78172 41.3125 21C41.3125 32.2183 32.2183 41.3125 21 41.3125C9.78172 41.3125 0.6875 32.2183 0.6875 21ZM29.9045 18.9513C31.5119 19.8443 31.5119 22.1559 29.9045 23.0489L18.232 29.5336C16.6698 30.4015 14.75 29.2719 14.75 27.4848L14.75 14.5153C14.75 12.7283 16.6698 11.5986 18.232 12.4665L29.9045 18.9513Z" fill="white"/>
+                            </svg>
+                            </button>
+                            <div class="video-player__duration">2.30 min</div>
+                          </div>
                     </div>
-                        </div>
-                        <div class="review-card__body tile">
-                            <div class="review-card__rating-view rating-view" 
-                            title="Rating 5 star"
-                            aria-label="Rating 5 star">
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                            </div>
-                            <blockquote class="review-card__description">
-                                <p>The reports on space mining prospects have fueled my passion for space exploration. They provide a comprehensive view of what lies beyond Earth.</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </li>
-                 <li class="bordered-grid__item">
-                    <div class="review-card">
-                        <div class="review-card__author person-card">
-                             <img 
-                    src="./images/reviews/5.png" 
-                    alt="" 
-                    class="person-card__image"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                    <div class="person-card__body">
-                        <p class="person-card__name">Jessica Miller</p>
-                        <p class="person-card__department">Boston, USA</p>
-                    </div>
-                        </div>
-                        <div class="review-card__body tile">
-                            <div class="review-card__rating-view rating-view" 
-                            title="Rating 5 star"
-                            aria-label="Rating 5 star">
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                            </div>
-                            <blockquote class="review-card__description">
-                                <p>The research papers on genomic breakthroughs have been a goldmine of information. They've shaped the direction of my research in genomics.</p>
-                            </blockquote>
+                    <div class="video-card__body">
+                        <h3 class="video-card__title h5">Revolutionizing Investment Strategies</h3>
+                        <div class="video-card__description">
+                            <p>An in-depth look at global efforts to conserve biodiversity and safeguard endangered species from extinction.</p>
                         </div>
                     </div>
-                </li>
-                 <li class="bordered-grid__item">
-                    <div class="review-card">
-                        <div class="review-card__author person-card">
-                             <img 
-                    src="./images/reviews/6.png" 
-                    alt="" 
-                    class="person-card__image"
-                    width="60"
-                    height="60"
-                    loading="lazy"
-                    />
-                    <div class="person-card__body">
-                        <p class="person-card__name">Diego Lopez</p>
-                        <p class="person-card__department">Barcelona, Spain</p>
-                    </div>
-                        </div>
-                        <div class="review-card__body tile">
-                            <div class="review-card__rating-view rating-view" 
-                            title="Rating 5 star"
-                            aria-label="Rating 5 star">
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                                <div class="rating-view__star is-active"></div>
-                            </div>
-                            <blockquote class="review-card__description">
-                                <p>The ebooks on renewable energy strategies have given me the insights I needed to pivot our startup toward sustainability.</p>
-                            </blockquote>
-                        </div>
-                    </div>
+                   </div>
                 </li>
             </ul>
         </div>
-    </section>
+       
+        </section>
 
-    <section class="about" aria-labelledby="about-title">
+
+        <section class="about" aria-labelledby="about-title">
         <div class="about__inner container">
             <header class="about__header">
                 <img 
@@ -1169,7 +918,8 @@
                 </li>
             </ul>
         </div>
-    </section>
+        </section>
+
     </main>
 
     <footer class="footer">

@@ -41,4 +41,8 @@
    &__body {
     border-block: var(--border-bottom);
    }
+
+   &__link {
+    max-width: rem(360);
+   }
 }

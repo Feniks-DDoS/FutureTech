@@ -4,6 +4,7 @@
 .about__card {
     display: flex;
     flex-direction: column;
+    height: 100%;
     row-gap: fluid(20, 10);
     transition: var(--transition-duration);
 
