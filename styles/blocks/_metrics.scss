@@ -6,7 +6,38 @@
     &__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+
+        &--4-cols {
+            grid-template-columns: repeat(4 , 1fr);
+            text-align: center;
+
+            @include tablet-above {
+
+            .metrics__item:nth-child(4n) {
+                padding-right: 0;
+            }
+            }
+
+            @include tablet {
+            grid-template-columns: repeat(2 , 1fr);
+
+            padding-inline: 0;
+
+            .metrics__item {
+            border-bottom: var(--border-bottom);
+                &:nth-child(odd) {
+                    padding-left: var(--container-padding-x);
+                }
+                &:nth-child(even) {
+                    padding-right:  var(--container-padding-x);
+                    border-right: none;
+                }
+
+            }
+
+        }
     }
+}
 
     &__item {
         display: flex;

@@ -46,7 +46,9 @@ class ExpandapleContent {
 
     close() {
         this.closeButtonElement = this.rootElement.classList.remove(this.stateClasses.isExpanded)
-        window.scroll({top: 1000, behavior: "smooth", })
+         
+        this.rootElement.scrollIntoView({behavior: 'smooth'})
+     
     }
 
     onButtonClick = () => {

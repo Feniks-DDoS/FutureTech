@@ -18,6 +18,11 @@
             @include hide;
         }
 
+        &--center {
+          justify-content: center;
+          align-items: center;
+        }
+
         &::before {
             content: "";
             position: absolute;
@@ -63,6 +68,10 @@
 
         @include laptop {
             border-radius: rem(10);
+        }
+
+        &--small {
+        height: fluid(290, 208);
         }
     }
 }
