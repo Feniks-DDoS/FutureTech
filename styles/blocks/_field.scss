@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: column;
     row-gap: rem(6);
-    margin-top: rem(8);
     font-size: rem(13);
     color: var(--color-red);
     line-height: 1.25;
@@ -65,10 +64,14 @@
         display: flex;
         column-gap: rem(16);
         width: 100%;
-
         @include laptop {
         column-gap: rem(12);
+        }
 
+        &-alt {
+            display: flex;
+            flex-direction: column;
+            row-gap: rem(14);
         }
     }
 

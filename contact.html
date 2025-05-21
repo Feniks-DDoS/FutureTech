@@ -201,20 +201,20 @@
                                      required
                                      aria-errormessage="Firstname-errors"
                                      />
-                                     <span class="field__errors" id="Firstname-errors" data-js-form-field-errors></span>
+                                     <span class="field__errors" id="Firstname-errors" data-js-form-field-errors ></span>
                                 </div>
                                 <div class="feedback-form__cell field">
-                                     <label for="lastName" class="field__label">Last Name </label>
+                                     <label for="lastName" class="field__label">Last Name <span class="field__required-star" aria-hidden="true">*</span></label>
                                      <input  
                                      id="lastName" 
                                      class="field__control" 
                                      placeholder="Smith"
                                      minlength="3"
                                      maxlength="20"
+                                     required
                                      aria-errormessage="LastName-errors"
                                      />   
-                                     <span class="field__errors" id="LastName-errors" data-js-form-field-errors></span>
-
+                                     <span class="field__errors" id="LastName-errors" data-js-form-field-errors ></span>
                                 </div>
                                 <div class="feedback-form__cell field">
                                      <label for="email" class="field__label">Email<span class="field__required-star" aria-hidden="true">*</span></label>
@@ -236,9 +236,9 @@ Hand type (not auto-fill) their email address and see if it will send."
                                      <span class="field__errors" id="email-errors" data-js-form-field-errors></span>    
                                 </div>
                                 <div class="feedback-form__cell field">
-                                     <label for="phoneNumber" class="field__label">Phone Number</label>
+                                     <label for="phoneNumber" class="field__label">Phone Number <span class="field__required-star" aria-hidden="true">*</span></label>
                                      <div class="field__body">
-                                        <div class="select " data-js-select>
+                                        <div class="select" data-js-select>
              <label
              for="phoneNumberPrefix" 
              class="select__label visually-hidden"
@@ -314,13 +314,19 @@ Hand type (not auto-fill) their email address and see if it will send."
                 </div>
             </div>
                                            </div>
+                                           <div class="field__body-alt">
                                         <input 
                                         data-js-input-mask="(000) 0000-0000"
                                          placeholder="(999) 9999-9999" 
+                                         required
                                          id="phoneNumber"
-                                          class="field__control">
+                                         aria-errormessage="phone-errors"
+                                         class="field__control"
+                                         >
+                                         <span class="field__errors" id="phone-errors" data-js-form-field-errors></span>
+                                         </div>
+                                      
                                      </div>
-
                                 </div>
                                 <div class="feedback-form__cell feedback-form__cell--wide field">
                                      <label for="message" class="field__label">Message</label>
@@ -328,7 +334,6 @@ Hand type (not auto-fill) their email address and see if it will send."
                                      id="message" 
                                      class="field__control"
                                      >
-
                                      </textarea>
                                      
                                 </div>
