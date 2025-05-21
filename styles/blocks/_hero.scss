@@ -130,6 +130,8 @@
                     border-bottom: var(--border-bottom);
                 }
             }
+
+
             @include tablet-above {
             &:not(:first-child) {
                 padding-left: var(--paddingX);

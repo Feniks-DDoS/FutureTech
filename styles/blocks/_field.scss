@@ -1,0 +1,89 @@
+@use '../helpers' as *;
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: rem(16);
+    font-weight: 500;
+    color: var(--color-light);
+    font-size: rem(18);
+
+    @include laptop {
+        row-gap: rem(12);
+    font-size: rem(16);
+    }
+
+    &__required-star {
+        color: var(--color-red);
+    }
+
+
+    &__errors {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(6);
+    margin-top: rem(8);
+    font-size: rem(13);
+    color: var(--color-red);
+    line-height: 1.25;
+
+    &:empty {
+        display: none;
+    }
+    }
+
+    &__control {
+        width: 100%;
+        height: rem(67);
+        padding-inline: rem(20);
+        color: var(--color-light);
+        background-color: var(--color-dark-10);
+        border: var(--border-bottom);
+        border-radius: rem(8);
+
+        @include hover {
+            border-color: var(--color-light);
+        }
+
+        &::placeholder {
+            color: var(--color-dark-40);
+        }
+
+        &:user-invalid {
+            border-color: var(--color-red);
+        }
+
+        @include laptop {
+            height: rem(53);
+            padding-inline: rem(16);
+            border-radius: rem(6);
+        }
+    }
+
+    &__body {
+        display: flex;
+        column-gap: rem(16);
+        width: 100%;
+
+        @include laptop {
+        column-gap: rem(12);
+
+        }
+    }
+
+
+    textarea.field__control {
+        resize: vertical;
+        min-height: rem(163);
+        padding-block: rem(20);
+
+        @include laptop {
+        padding-block: rem(16);
+    }
+    
+        @include mobile {
+        min-height: rem(127);
+        }
+    }
+}

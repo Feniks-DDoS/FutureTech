@@ -21,6 +21,7 @@
     @include mobile {
         @keyframes headerScroll {
         to {
+           box-shadow: 0 0 2rem var(--color-dark-40);
            top: rem(-55);
         }
     }
@@ -29,6 +30,7 @@
     @include mobile-s {
         @keyframes headerScroll {
         to {
+           box-shadow: 0 0 2rem var(--color-dark-40);
            top: rem(-73);
         }
     }

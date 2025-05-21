@@ -2,6 +2,39 @@
 
 .soc1als {
 
+    &--3-cols {
+        width: 100%;
+        max-width: rem(308);
+        .soc1als {
+            &__list {
+                display: grid;
+                grid-template-columns: repeat(3 , 1fr);
+                row-gap: rem(10);   
+
+                @include laptop {
+                    column-gap: rem(10);
+                }
+            }
+
+            &__link {
+                background-color: var(--color-dark-10);
+                border: var(--border-bottom);
+                border-radius: rem(6);
+                @include flex-center;
+                height: rem(60);
+                width: 100%;
+
+                @include hover {
+                    border-color: var(--color-accent);
+                }
+
+                @include laptop {
+                    height: rem(48);
+                }
+            }
+        }
+    }
+
     @include mobile {
         order: -1;
     }

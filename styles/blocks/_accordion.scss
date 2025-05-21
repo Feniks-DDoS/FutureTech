@@ -1,0 +1,82 @@
+@use '../helpers' as *;
+
+.accordion {
+
+    @include hover {
+        .accordion__title {
+            color: var(--color-accent);
+        }
+    }
+    &__details {
+        &[open] {
+            .accordion__title {
+                &::before,
+                &::after {
+                    background-color: var(--color-light);
+                }
+
+                &::after {
+                  transform: rotate(0deg) ;
+                }
+            }   
+
+            & + .accordion__content {
+                grid-template-rows: 1fr;
+            }
+        }
+    }
+
+    &__summary {
+        list-style: none;
+
+        
+
+        &::-webkit-details-marker {
+              display: none;
+        }
+    }
+
+    &__title {
+        position: relative;
+        padding-right: rem(50);
+        transition: var(--transition-duration);
+
+        &::before,
+        &::after {
+            @include abs-y;
+            content: "";
+            right: 0;
+            width: rem(16);
+            height: rem(2);
+            background-color: var(--color-accent);
+            border-radius: 1rem;
+            transition: var(--transition-duration);
+
+        }
+
+        &::after {
+            transform: rotate(90deg);
+        }
+    }
+
+
+    &__content {
+
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: 0.3s;
+
+        &-inner {
+            overflow: hidden;
+        }
+
+        &-body {
+        --offsetTop: #{fluid(24 ,16)};
+
+        margin-top: var(--offsetTop);
+        padding-top: var(--offsetTop);
+        border-top: var(--border-bottom);
+        }
+
+    }
+}

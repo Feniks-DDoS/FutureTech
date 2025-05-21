@@ -2,10 +2,12 @@
 
 
 .card {
+    
     @include tablet-above {
     display: grid;
     grid-template-columns: 37.5%  auto;
     }
+
 
 
     &__preview,

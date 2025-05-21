@@ -7,6 +7,11 @@ html {
     }
 }
 
+section,
+body {
+    overflow-x: hidden;
+}
+
 body {
     @include fluid-text(18 , 14);
 

@@ -25,6 +25,7 @@
 
             .metrics__item {
             border-bottom: var(--border-bottom);
+
                 &:nth-child(odd) {
                     padding-left: var(--container-padding-x);
                 }
@@ -42,8 +43,14 @@
     &__item {
         display: flex;
         flex-direction: column-reverse;
+        position: relative; 
         row-gap: rem(10);
         padding: rem(50);
+
+          
+            @include mobile {
+                align-self: start;
+            }
 
         @include laptop {
             padding: rem(30) rem(40);
@@ -66,6 +73,7 @@
 
     &__value {
         font-weight: 600;
+
     }
 
     &__sign {
