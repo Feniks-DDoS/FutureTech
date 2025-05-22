@@ -9,8 +9,8 @@ class FormValidation {
     errorMessages = {
         tooShort: ({ minLength }) => `Min character ${minLength}`,
         tooLong: ({ maxLength }) => `Max character ${maxLength}`,
-        patternMismatch: ({ title }) => title || 'Dont correct value',
-        valueMissing: () => 'Dont correct value',
+        patternMismatch: ({ title }) => title || 'Incorrect value',
+        valueMissing: () => 'Incorrect value',
     }
 
     constructor(rootElement) {
